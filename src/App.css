@@ -1,22 +1,18 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333232;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.circle {
+  display: none;
 }
-
-.App-link {
-  color: #09d3ac;
+@media (min-width: 1140px) {
+    .circle {
+      position: absolute;
+      display: block;
+      top: 0;
+      right: -20%;
+      z-index: -1;
+  }
 }
